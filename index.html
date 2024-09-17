@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Quinm's personal portfolio website.">
+    <meta name="keywords" content="Quinm, Quentin Willemstein, Portfolio, Web Development, Front-end, Software Development, Development, Quin, Quentin">
+    <meta name="author" content="Quentin Willemstein">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./media/img/emoij.webp">
+    <title>Quinm.</title>
+</head>
+<body>
+    
+    <header>
+            <div class="nav">
+                <div class="logo">
+                    <a href="/"><img src="./media/img/logo.svg" alt="logo" width="70"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li class="navitem"><a href="#projects"><b>[ ]</b> Projects</a></li>
+                        <li class="navitem"><a href="#about"><b>[ ]</b> About</a></li>
+                        <li class="time" id="headertime">--:-- AMS</li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <div id="landing" class="page landingpage">
+            <h1 class="bigtext">Quinm.
+            </h1>
+        </div>
+
+        <div id="projects" class="page projects">
+            <h1 class="topbigtext">Projects</h1>
+    
+            <div class="project-container">
+
+                <div class="project-item" onclick="goToSite(`https://quinm.nl`)">
+                    <div class="project-item-image">
+                        <img src="./media/img/logo.svg" alt="Quinm portfolio logo" height="60" style="filter: invert(0.9)">
+                    </div>
+                    <div class="project-item-text">
+                        <h3>Quinm.nl</h3>
+                        <p>My personal portfolio website.</p>
+                    </div>
+                </div>
+
+                <div class="project-item" onclick="goToSite(`https://vertrektijden.be`)">
+                    <div class="project-item-image">
+                        <img src="./media/img/Vertrektijden.be.svg" alt="Vertrektijden.be logo" height="60" width="200">
+                    </div>
+                    <div class="project-item-text">
+                        <h3>Vertrektijden.be</h3>
+                        <p>Journey planner for Belgian trains.</p>
+                    </div>
+                </div>
+
+                <div class="project-item" onclick="goToSite(`https://kana.quinm.nl`)">
+                    <div class="project-item-image">
+                        <img src="./media/img/kanaonline.svg" alt="Kana Online logo" height="60">
+                    </div>
+                    <div class="project-item-text">
+                        <h3>Kana Online</h3>
+                        <p>Practice Hiragana and Katakana.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="about" class="page about">
+            <h1 class="topbigtext">About me</h1>
+
+            <div class="about-item">
+                <h1>Short Introduction</h1>
+                <p>My name is Quentin Willemstein, I am a dutch software developer focusing on front-end web development. <br>
+                I do also have experience working with back-end web development and Linux server management.</p>
+            </div>
+
+            <div class="about-item">
+                <h1>Skills</h1>
+
+                <div class="skills">
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" />
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" />
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" />
+                        <p>C#</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.JS" />
+                        <p>Node.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-plain.svg" style="filter: invert(1);" alt="PHP"/>
+                        <p>PHP</p>
+                    </div>
+                    <div class="skill-item GitHub">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" />
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" />
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-item">
+                <h1>Experience</h1>
+                <p>As of writing I have no professional experience but I have done some projects for school and personal use. As of now I have a retail job outside of software development. Check out my <a style="text-decoration: underline;" href="https://www.linkedin.com/in/qmwillemstein/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn Logo" height="12pt" /> LinkedIn</a> for more information. And check out my <a style="text-decoration: underline;" href="https://github.com/qw60"><img style="filter: invert(1);" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub Logo" height="12pt"/> GitHub</a> for more of my development projects not found here.
+                  </p>
+            </div>
+
+            <div class="about-item">
+                <h1>Contact</h1>
+                <p>You can send me a email at <a style="color: rgb(103, 174, 255);" href="mailto:contact@quinm.nl">contact@quinm.nl</a>.
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="./scripts/time.js"></script>
+    <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/projectlinks.js"></script>
+</body>
+</html>
