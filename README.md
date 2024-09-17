@@ -1,2 +1,1 @@
-# Portfolio
-My personal portfolio website.
+<img src="https://quinm.nl/media/img/logo-invert.svg" width="100">
