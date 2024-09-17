@@ -1,1 +1,1 @@
-<img src="https://quinm.nl/media/img/logo-invert.svg" width="100">
+<img src="https://quinm.nl/media/img/logo-invert.svg" width="75">
