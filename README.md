@@ -1,16 +1,6 @@
 
-<img src="https://quinm.nl/media/img/logo-invert.svg" width="75">   Portfolio
+<img src="https://quinm.nl/media/img/logo-invert.svg" width="75">
 
-###
-
-#### ❓ About
-
-This is my personal portfolio website, Quinm.nl.
-
-
-###
-
-#### ✍️ Authors
-
-
- - [@QW60](https://github.com/qw60)
+# 🍃 Portfolio
+My personal portfolio as of 2024, Quinm.nl.
+This repo stands as a base and may get out of date as changes are made on the host server.
