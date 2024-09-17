@@ -1,5 +1,5 @@
 
-# <img src="https://quinm.nl/media/img/logo-invert.svg" width="75"> Portfolio
+<img src="https://quinm.nl/media/img/logo-invert.svg" width="75">   Portfolio
 
 ###
 
